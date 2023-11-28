@@ -1,4 +1,5 @@
 const { Schema, model }=require("mongoose");
+const Joi=require("joi");
 
 const categorySchema=new Schema({
     categoryCode: String,
@@ -6,10 +7,20 @@ const categorySchema=new Schema({
         type: String,
         default: "cay.jpg"
     },
-    categoryName: String,
+    categoryName: {
+        type: String,
+        unique: true
+    },
     url: String,
 });
 
 const Category=model("Category",categorySchema);
 
-module.exports=Category;
+async function validateCategory(category){
+    const schema=Joi.object({
+        categoryName: Joi.string().required().min(2).max(30)
+    })
+    return schema.validate({categoryName: category.categoryName})
+}
+
+module.exports={ Category, validateCategory };

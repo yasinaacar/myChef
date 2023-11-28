@@ -9,6 +9,7 @@
         <div class="row m-5">
             <div class="col-12">
                 <h3 class="text-center mb-5"><%= title %></h3>
+                <%- include('../partials/alert') %>
                 <form method="post" action="/admin/category/edit/<%= category.url %>" enctype="multipart/form-data">
                     <div class="mb-4 row">
                         <label for="categoryName" class="col-sm-2 col-form-label">Category Name:</label>
