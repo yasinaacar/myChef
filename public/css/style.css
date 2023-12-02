@@ -30,3 +30,7 @@
 .table-buttons .deleteBtn:hover{
     color: #dc3545;
 }
+
+.disabled{
+    display: none;
+}

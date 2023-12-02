@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body>
+    <%- include('../partials/navbar') %>
+    <div class="container">
+        <div class="row m-5">
+            <div class="col-12">
+                <h3 class="text-center mb-5"><%= title %></h3>
+                <%- include('../partials/alert') %>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="mb-4 row">
+                                <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="productName" name="productName" minlength="2">
+                                </div>
+                            </div>
+                            <div class="mb-4 row">
+                                <label for="productImg" class="col-sm-2 col-form-label">Product Image:</label>
+                                <div class="col-sm-10">
+                                    <input type="file" class="form-control" id="productImg" name="productImg">
+                                </div>
+                            </div>
+                            <div class="mb-4 row">
+                                <label for="editor" class="col-sm-2 col-form-label">Product Description:</label>
+                                <div class="col-sm-10">
+                                    <textarea name="productDescription" id="editor" style="width: 100% ;" rows="3" placeholder="Write product content here" maxlength="200"></textarea>
+                                </div>
+                            </div>
+                            <div class="mb-4 row">
+                                <div class="input-group mb-3">
+                                    <label for="productPrice" class="col-sm-2 col-form-label">Product Price:</label>
+                                    
+                                    <input type="number" class="form-control" name="productPrice">
+                                    <span class="input-group-text">$</span>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 ms-4">
+                            <div class="mb-5 row">
+                                <h4 class="border-bottom pb-3">Categories</h4>
+                                <% categories.forEach(category => { %>                                 
+                                    <div class="form-check mb-2">
+                                        <input class="form-check-input" type="checkbox"  id="category_<%= category._id %>" name="categories[]" value="<%= category._id %>">
+                                        <label class="form-check-label" for="category_<%= category._id %>"><%= category.categoryName %></label>
+                                    </div>
+                                <% }) %>
+                            </div>
+                            <div class="mb-4 row">
+                                <h4 class="border-bottom pb-3">Options</h4>
+                                <div class="form-check mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox"  id="isActive" name="isActive">
+                                        <label class="form-check-label" for="isActive">Activate</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4 row">
+
+                    </div>
+                    <div class="mt-5 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary px-4">Add</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <%- include('../partials/script') %>
+    <%- include('../partials/ckEditor-script') %>
+    
+
+</body>
+</html>

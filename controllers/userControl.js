@@ -1,4 +1,5 @@
-const Category=require("../models/category");
+const {Category}=require("../models/category");
+const {Product}=require("../models/product");
 
 exports.get_homepage=async (req, res)=>{
     return res.render("user/homepage", {
@@ -8,9 +9,19 @@ exports.get_homepage=async (req, res)=>{
 
 exports.get_menu=async (req, res)=>{
     const categories=await Category.find();
-    console.log("categories-------->", categories);
-    return res.render("user/menu", {
-        title: "menu",
+    return res.render("user/category-menu", {
+        title: "Menus",
         categories: categories
+    })
+}
+
+exports.get_product_list=async (req, res)=>{
+    const url=req.params.slug;
+    console.log(url)
+    const products=await Category.findOne({url:url}).populate("products");
+    console.log(products.products)
+    return res.render("user/product-list", {
+        title: products.categoryName,
+        products: products.products
     })
 }

@@ -1,247 +1,537 @@
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 10:04:25'
+  timestamp: '28/11/2023 19:30:27'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 12:01:12'
+  timestamp: '28/11/2023 19:42:56'
 }
 {
-  message: "Cannot read properties of undefined (reading 'filename')",
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 19:43:18'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 19:45:53'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 19:48:00'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 19:54:06'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 19:55:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:00:06'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:00:42'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:13:49'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:14:18'
+}
+{
+  message: 'Failed to lookup view "admin/product/create" in views directory "C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views"',
   level: 'error',
-  timestamp: '28/11/2023 12:01:25'
+  timestamp: '28/11/2023 20:14:22'
 }
 {
-  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\category-edit.ejs:20\n' +
-    '    18|                     </div>\r\n' +
-    '    19|                     <div class="mb-4 row">\r\n' +
-    ' >> 20|                         <p><%= name %></p>\r\n' +
-    '    21|                         <label for="categoryImg" class="col-sm-2 col-form-label">Category Image:</label>\r\n' +
-    '    22|                         <img src="/static/images/<%= category.categoryImg %>" alt="/static/image/<%= category.categoryImg %>" class="col-sm-2">\r\n' +
-    '    23|                         <div class="col-sm-8">\r\n' +
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:15:00'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:18:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:21:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:22:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:25:45'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:27:48'
+}
+{
+  message: "Cannot read properties of undefined (reading 'productName')",
+  level: 'error',
+  timestamp: '28/11/2023 20:27:51'
+}
+{
+  message: "Cannot read properties of undefined (reading 'productName')",
+  level: 'error',
+  timestamp: '28/11/2023 20:28:21'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:29:09'
+}
+{
+  message: "Cannot read properties of undefined (reading 'productName')",
+  level: 'error',
+  timestamp: '28/11/2023 20:29:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:29:22'
+}
+{
+  message: "Cannot read properties of undefined (reading 'productName')",
+  level: 'error',
+  timestamp: '28/11/2023 20:30:10'
+}
+{
+  message: "Cannot read properties of undefined (reading 'productName')",
+  level: 'error',
+  timestamp: '28/11/2023 20:30:23'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:31:23'
+}
+{ level: 'error', timestamp: '28/11/2023 20:31:33' }
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:31:56'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:32:20'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:33:05'
+}
+{
+  level: 'info',
+  message: 'product name------>',
+  timestamp: '28/11/2023 20:33:06'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:33:06'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:33:06'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:33:06'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:33:06'
+}
+{
+  level: 'info',
+  message: 'product name------>',
+  timestamp: '28/11/2023 20:33:25'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:33:25'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:33:25'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:33:25'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:33:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:34:04'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:34:12'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:34:12'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:34:12'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:34:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:34:34'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:34:42'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:34:42'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:34:42'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:34:42'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:34:55'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:36:06'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:36:06'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:36:06'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:36:06'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:39:45'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:39:45'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:39:45'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:39:45'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:40:31'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:40:31'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:40:31'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:40:31'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:41:09'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:41:12'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:41:12'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:41:12'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:41:12'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:41:13'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:41:13'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:41:13'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:41:13'
+}
+{
+  level: 'info',
+  message: 'product price------>',
+  timestamp: '28/11/2023 20:41:38'
+}
+{
+  level: 'info',
+  message: 'product img------>',
+  timestamp: '28/11/2023 20:41:38'
+}
+{
+  level: 'info',
+  message: 'product description------>',
+  timestamp: '28/11/2023 20:41:38'
+}
+{
+  level: 'info',
+  message: 'isActive------>',
+  timestamp: '28/11/2023 20:41:38'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:42:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:46:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:47:05'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:47:53'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:48:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:49:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:51:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 20:56:14'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\products.ejs:72\n' +
+    '    70|                                                         <div class="modal-footer">\r\n' +
+    '    71|                                                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r\n' +
+    ' >> 72|                                                             <form action="/admin/category/delete/<%= category._id %>" method="post">\r\n' +
+    '    73|                                                                 <input type="hidden" name="categoryId" value="<%= category._id %>">\r\n' +
+    '    74|                                                                 <input type="hidden" name="categoryImg" value="<%= category.categoryImg %>">\r\n' +
+    '    75|                                                                 <button type="submit" class="btn btn-danger">Delete</button>\r\n' +
     '\n' +
-    'name is not defined',
+    'category is not defined',
   level: 'error',
-  timestamp: '28/11/2023 12:01:36'
+  timestamp: '28/11/2023 20:57:04'
 }
 {
-  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\category-edit.ejs:20\n' +
-    '    18|                     </div>\r\n' +
-    '    19|                     <div class="mb-4 row">\r\n' +
-    ' >> 20|                         <p><%= name %></p>\r\n' +
-    '    21|                         <label for="categoryImg" class="col-sm-2 col-form-label">Category Image:</label>\r\n' +
-    '    22|                         <img src="/static/images/<%= category.categoryImg %>" alt="/static/image/<%= category.categoryImg %>" class="col-sm-2">\r\n' +
-    '    23|                         <div class="col-sm-8">\r\n' +
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\products.ejs:73\n' +
+    '    71|                                                         <div class="modal-footer">\r\n' +
+    '    72|                                                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>\r\n' +
+    ' >> 73|                                                             <form action="/admin/category/delete/<%= category._id %>" method="post">\r\n' +
+    '    74|                                                                 <input type="hidden" name="categoryId" value="<%= category._id %>">\r\n' +
+    '    75|                                                                 <input type="hidden" name="categoryImg" value="<%= category.categoryImg %>">\r\n' +
+    '    76|                                                                 <button type="submit" class="btn btn-danger">Delete</button>\r\n' +
     '\n' +
-    'name is not defined',
+    'category is not defined',
   level: 'error',
-  timestamp: '28/11/2023 12:01:45'
+  timestamp: '28/11/2023 20:59:13'
 }
 {
-  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\category-edit.ejs:20\n' +
-    '    18|                     </div>\r\n' +
-    '    19|                     <div class="mb-4 row">\r\n' +
-    ' >> 20|                         <p><%= name %></p>\r\n' +
-    '    21|                         <label for="categoryImg" class="col-sm-2 col-form-label">Category Image:</label>\r\n' +
-    '    22|                         <img src="/static/images/<%= category.categoryImg %>" alt="/static/image/<%= category.categoryImg %>" class="col-sm-2">\r\n' +
-    '    23|                         <div class="col-sm-8">\r\n' +
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 21:07:21'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 21:08:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '28/11/2023 21:09:23'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:44\n' +
+    '    42|                     <div class="mb-4 row">\r\n' +
+    '    43|                         <div class="form-check">\r\n' +
+    ' >> 44|                             <input class="form-check-input" type="checkbox"  id="isActive" name="isActive" value="<%= (product.isActive==true)? checked:"" %>">\r\n' +
+    '    45|                             <label class="form-check-label" for="isActive">Publish The Product</label>\r\n' +
+    '    46|                     </div>\r\n' +
+    '    47|                     <div class="mt-5 d-end">\r\n' +
     '\n' +
-    'name is not defined',
+    'checked is not defined',
   level: 'error',
-  timestamp: '28/11/2023 12:01:49'
+  timestamp: '28/11/2023 21:14:06'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 12:04:52'
+  timestamp: '29/11/2023 09:34:53'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 12:05:17'
+  timestamp: '29/11/2023 09:52:06'
 }
 {
-  message: 'slug is not defined',
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 10:01:44'
+}
+{
+  message: "Cannot access 'productName' before initialization",
   level: 'error',
-  timestamp: '28/11/2023 12:05:20'
+  timestamp: '29/11/2023 10:01:47'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:05:58'
-}
-{
-  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\categories.ejs:46\n' +
-    '    44|                         </thead>\r\n' +
-    '    45|                         <tbody>\r\n' +
-    ' >> 46|                             <% categories.forEach(category => { %>                             \r\n' +
-    '    47|                                 <tr class=" align-items-center">\r\n' +
-    '    48|                                     <td><%= category.categoryCode %></td>\r\n' +
-    '    49|                                     <td>\r\n' +
-    '\n' +
-    'categories is not defined',
+  message: "Cannot access 'productName' before initialization",
   level: 'error',
-  timestamp: '28/11/2023 12:06:12'
+  timestamp: '29/11/2023 10:01:56'
 }
 {
-  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\categories.ejs:46\n' +
-    '    44|                         </thead>\r\n' +
-    '    45|                         <tbody>\r\n' +
-    ' >> 46|                             <% categories.forEach(category => { %>                             \r\n' +
-    '    47|                                 <tr class=" align-items-center">\r\n' +
-    '    48|                                     <td><%= category.categoryCode %></td>\r\n' +
-    '    49|                                     <td>\r\n' +
-    '\n' +
-    'categories is not defined',
+  message: "Cannot access 'productName' before initialization",
   level: 'error',
-  timestamp: '28/11/2023 12:06:21'
+  timestamp: '29/11/2023 10:02:02'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 12:06:42'
+  timestamp: '29/11/2023 10:02:17'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:07:50'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:10:52'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
+  message: "Cannot access 'productName' before initialization",
   level: 'error',
-  timestamp: '28/11/2023 12:11:38'
+  timestamp: '29/11/2023 10:02:40'
 }
 {
-  message: 'E11000 duplicate key error collection: mychefdb.categories index: categoryName_1 dup key: { categoryName: "Game" }',
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 10:02:56'
+}
+{
+  message: "Cannot access 'productName' before initialization",
   level: 'error',
-  timestamp: '28/11/2023 12:12:01'
+  timestamp: '29/11/2023 10:05:06'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 12:17:30'
+  timestamp: '29/11/2023 10:05:06'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:17:50'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:18:37'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:18:48'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:21:34'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:21:51'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:23:04'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
+  message: "Cannot access 'productName' before initialization",
   level: 'error',
-  timestamp: '28/11/2023 12:23:07'
+  timestamp: '29/11/2023 10:05:17'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 12:23:16'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
-  level: 'error',
-  timestamp: '28/11/2023 12:23:29'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:30:32'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
-  level: 'error',
-  timestamp: '28/11/2023 12:30:49'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
-  level: 'error',
-  timestamp: '28/11/2023 12:31:01'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:31:20'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
-  level: 'error',
-  timestamp: '28/11/2023 12:31:21'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
-  level: 'error',
-  timestamp: '28/11/2023 12:31:41'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:32:00'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
-  level: 'error',
-  timestamp: '28/11/2023 12:32:03'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:32:34'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
-  level: 'error',
-  timestamp: '28/11/2023 12:32:36'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:33:42'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
-  level: 'error',
-  timestamp: '28/11/2023 12:34:10'
-}
-{
-  message: "Cannot read properties of undefined (reading 'filename')",
-  level: 'error',
-  timestamp: '28/11/2023 12:34:17'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:36:43'
+  timestamp: '29/11/2023 10:05:45'
 }
 {
   errno: -4058,
@@ -249,688 +539,1761 @@
   syscall: 'unlink',
   path: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\undefined',
   level: 'error',
-  message: "Category Image couldn't deleted ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\undefined'",
+  message: "Category informations is edited but Category Image couldn't deleted ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\undefined'",
   stack: "Error: ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\undefined'",
-  timestamp: '28/11/2023 12:36:55'
+  timestamp: '29/11/2023 10:07:03'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:37:17'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:40:08'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:41:30'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:44:55'
+  level: 'error',
+  message: 'Undeleted Image: ',
+  timestamp: '29/11/2023 10:07:03'
 }
 {
   errno: -4058,
   code: 'ENOENT',
   syscall: 'unlink',
-  path: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg',
+  path: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\undefined',
   level: 'error',
-  message: "When deleting category  couldn't delete image ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  stack: "Error: ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  timestamp: '28/11/2023 12:44:59'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:51:05'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:52:14'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:55:26'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:55:43'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:58:25'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 12:59:17'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 13:00:45'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 13:03:38'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 13:05:48'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 13:06:05'
-}
-{
-  errno: -4058,
-  code: 'ENOENT',
-  syscall: 'unlink',
-  path: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg',
-  level: 'error',
-  message: "Category Image couldn't deleted ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  stack: "Error: ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  timestamp: '28/11/2023 13:06:14'
-}
-{
-  errno: -4058,
-  code: 'ENOENT',
-  syscall: 'unlink',
-  path: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg',
-  level: 'error',
-  message: "Category Image couldn't deleted ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  stack: "Error: ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  timestamp: '28/11/2023 13:06:26'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 13:07:47'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 13:08:11'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 13:08:49'
+  message: "Category informations is edited but Category Image couldn't deleted ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\undefined'",
+  stack: "Error: ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\undefined'",
+  timestamp: '29/11/2023 10:08:04'
 }
 {
   level: 'error',
-  message: 'MongoDB session store connection error: Error connecting to db: 2C2F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n',
-  stack: 'Error: Error connecting to db: 2C2F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1586:SSL alert number 80\n' +
+  message: 'Undeleted Image: ',
+  timestamp: '29/11/2023 10:08:04'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 10:09:30'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 10:11:39'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 10:13:04'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 11:11:07'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 12:03:28'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 12:09:32'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 12:12:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 12:12:34'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
     '\n' +
-    '    at C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\node_modules\\connect-mongodb-session\\index.js:88:17\n' +
-    '    at C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\node_modules\\connect-mongodb-session\\node_modules\\mongodb\\lib\\utils.js:348:66\n' +
-    '    at runNextTicks (node:internal/process/task_queues:60:5)\n' +
-    '    at listOnTimeout (node:internal/timers:540:9)\n' +
-    '    at process.processTimers (node:internal/timers:514:7)',
-  timestamp: '28/11/2023 14:29:47'
-}
-{
-  message: "mongodb connection is failed!!! Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
-  reason: TopologyDescription {
-    type: 'ReplicaSetNoPrimary',
-    servers: Map(3) {
-      'ac-q0owiyc-shard-00-00.slrguhg.mongodb.net:27017' => ServerDescription {
-        address: 'ac-q0owiyc-shard-00-00.slrguhg.mongodb.net:27017',
-        type: 'Unknown',
-        hosts: [],
-        passives: [],
-        arbiters: [],
-        tags: {},
-        minWireVersion: 0,
-        maxWireVersion: 0,
-        roundTripTime: -1,
-        lastUpdateTime: 766580715,
-        lastWriteDate: 0,
-        error: MongoNetworkError: 2C2F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1586:SSL alert number 80
-        
-            at connectionFailureError (C:\Users\Yasin\OneDrive\Masaüstü\Web Geliştirme\Back-End\Örnek Projeler\myChef\node_modules\mongodb\lib\cmap\connect.js:367:20)
-            at TLSSocket.<anonymous> (C:\Users\Yasin\OneDrive\Masaüstü\Web Geliştirme\Back-End\Örnek Projeler\myChef\node_modules\mongodb\lib\cmap\connect.js:290:22)
-            at Object.onceWrapper (node:events:629:26)
-            at TLSSocket.emit (node:events:514:28)
-            at emitErrorNT (node:internal/streams/destroy:151:8)
-            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
-            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
-          cause: [Error: 2C2F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1586:SSL alert number 80
-          ] {
-            library: 'SSL routines',
-            reason: 'tlsv1 alert internal error',
-            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
-          },
-          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
-        },
-        topologyVersion: null,
-        setName: null,
-        setVersion: null,
-        electionId: null,
-        logicalSessionTimeoutMinutes: null,
-        primary: null,
-        me: null,
-        '$clusterTime': null
-      },
-      'ac-q0owiyc-shard-00-01.slrguhg.mongodb.net:27017' => ServerDescription {
-        address: 'ac-q0owiyc-shard-00-01.slrguhg.mongodb.net:27017',
-        type: 'Unknown',
-        hosts: [],
-        passives: [],
-        arbiters: [],
-        tags: {},
-        minWireVersion: 0,
-        maxWireVersion: 0,
-        roundTripTime: -1,
-        lastUpdateTime: 766580715,
-        lastWriteDate: 0,
-        error: MongoNetworkError: 2C2F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1586:SSL alert number 80
-        
-            at connectionFailureError (C:\Users\Yasin\OneDrive\Masaüstü\Web Geliştirme\Back-End\Örnek Projeler\myChef\node_modules\mongodb\lib\cmap\connect.js:367:20)
-            at TLSSocket.<anonymous> (C:\Users\Yasin\OneDrive\Masaüstü\Web Geliştirme\Back-End\Örnek Projeler\myChef\node_modules\mongodb\lib\cmap\connect.js:290:22)
-            at Object.onceWrapper (node:events:629:26)
-            at TLSSocket.emit (node:events:514:28)
-            at emitErrorNT (node:internal/streams/destroy:151:8)
-            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
-            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
-          cause: [Error: 2C2F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1586:SSL alert number 80
-          ] {
-            library: 'SSL routines',
-            reason: 'tlsv1 alert internal error',
-            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
-          },
-          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
-        },
-        topologyVersion: null,
-        setName: null,
-        setVersion: null,
-        electionId: null,
-        logicalSessionTimeoutMinutes: null,
-        primary: null,
-        me: null,
-        '$clusterTime': null
-      },
-      'ac-q0owiyc-shard-00-02.slrguhg.mongodb.net:27017' => ServerDescription {
-        address: 'ac-q0owiyc-shard-00-02.slrguhg.mongodb.net:27017',
-        type: 'Unknown',
-        hosts: [],
-        passives: [],
-        arbiters: [],
-        tags: {},
-        minWireVersion: 0,
-        maxWireVersion: 0,
-        roundTripTime: -1,
-        lastUpdateTime: 766580715,
-        lastWriteDate: 0,
-        error: MongoNetworkError: 2C2F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1586:SSL alert number 80
-        
-            at connectionFailureError (C:\Users\Yasin\OneDrive\Masaüstü\Web Geliştirme\Back-End\Örnek Projeler\myChef\node_modules\mongodb\lib\cmap\connect.js:367:20)
-            at TLSSocket.<anonymous> (C:\Users\Yasin\OneDrive\Masaüstü\Web Geliştirme\Back-End\Örnek Projeler\myChef\node_modules\mongodb\lib\cmap\connect.js:290:22)
-            at Object.onceWrapper (node:events:629:26)
-            at TLSSocket.emit (node:events:514:28)
-            at emitErrorNT (node:internal/streams/destroy:151:8)
-            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
-            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
-          cause: [Error: 2C2F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1586:SSL alert number 80
-          ] {
-            library: 'SSL routines',
-            reason: 'tlsv1 alert internal error',
-            code: 'ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR'
-          },
-          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
-        },
-        topologyVersion: null,
-        setName: null,
-        setVersion: null,
-        electionId: null,
-        logicalSessionTimeoutMinutes: null,
-        primary: null,
-        me: null,
-        '$clusterTime': null
-      }
-    },
-    stale: false,
-    compatible: true,
-    heartbeatFrequencyMS: 10000,
-    localThresholdMS: 15,
-    setName: 'atlas-nye4xq-shard-0',
-    maxElectionId: null,
-    maxSetVersion: null,
-    commonWireVersion: 0,
-    logicalSessionTimeoutMinutes: null
-  },
-  code: undefined,
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  stack: "MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n" +
-    '    at _handleConnectionErrors (C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\node_modules\\mongoose\\lib\\connection.js:809:11)\n' +
-    '    at NativeConnection.openUri (C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\node_modules\\mongoose\\lib\\connection.js:784:11)\n' +
-    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
-    '    at async connectMongoDb (C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\startup\\db.js:22:9)',
-  timestamp: '28/11/2023 14:29:47'
+  timestamp: '29/11/2023 12:12:54'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 14:31:55'
+  timestamp: '29/11/2023 12:16:21'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:33:25'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:34:51'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:35:26'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:36:40'
-}
-{
-  errno: -4058,
-  code: 'ENOENT',
-  syscall: 'unlink',
-  path: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg',
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  message: "Category Image couldn't deleted ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  stack: "Error: ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  timestamp: '28/11/2023 14:36:43'
+  timestamp: '29/11/2023 12:16:24'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 14:38:13'
+  timestamp: '29/11/2023 12:19:13'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:38:57'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:39:37'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:41:27'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:42:27'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:42:50'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:43:58'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:44:44'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:45:09'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:46:29'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:46:44'
-}
-{
-  errno: -4058,
-  code: 'ENOENT',
-  syscall: 'unlink',
-  path: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg',
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  message: "Category Image couldn't deleted ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  stack: "Error: ENOENT: no such file or directory, unlink 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\public\\images\\logo.jpg'",
-  timestamp: '28/11/2023 14:46:50'
+  timestamp: '29/11/2023 12:19:14'
 }
 {
-  message: "Cannot read properties of undefined (reading 'errors')",
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  timestamp: '28/11/2023 14:46:57'
+  timestamp: '29/11/2023 12:19:15'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:47:23'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:47:26'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 14:47:41'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 16:17:26'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 16:27:10'
-}
-{
-  message: "Cannot read properties of null (reading 'categoryName')",
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  timestamp: '28/11/2023 16:27:30'
+  timestamp: '29/11/2023 12:19:19'
 }
 {
-  message: "Cannot read properties of null (reading 'categoryName')",
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 12:19:40'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  timestamp: '28/11/2023 16:27:42'
+  timestamp: '29/11/2023 12:19:47'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 16:28:45'
-}
-{
-  message: "Cannot read properties of null (reading 'categoryName')",
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  timestamp: '28/11/2023 16:28:47'
+  timestamp: '29/11/2023 12:19:51'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:28:58'
+  timestamp: '29/11/2023 12:21:07'
 }
 {
-  message: "Cannot read properties of null (reading '_id')",
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 12:21:17'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  timestamp: '28/11/2023 16:28:59'
+  timestamp: '29/11/2023 12:21:19'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:29:08'
+  timestamp: '29/11/2023 12:23:01'
 }
 {
-  message: 'Category validation failed: categoryName: Path `categoryName` (`a`) is shorter than the minimum allowed length (2).',
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  timestamp: '28/11/2023 16:29:40'
+  timestamp: '29/11/2023 12:23:04'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:30:27'
+  timestamp: '29/11/2023 12:23:26'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 16:30:55'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 16:31:26'
-}
-{
-  message: "Cannot read properties of undefined (reading 'message')",
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  timestamp: '28/11/2023 16:31:32'
+  timestamp: '29/11/2023 12:23:28'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:32:37'
+  timestamp: '29/11/2023 12:24:05'
 }
 {
-  message: 'Joi.string(...).required(...).min(...).max(...).unique is not a function',
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  timestamp: '28/11/2023 16:32:43'
+  timestamp: '29/11/2023 12:24:06'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 16:33:57'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 16:35:56'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 16:38:33'
-}
-{
-  message: 'Cannot apply rules to empty ruleset or the last rule added does not support rule properties',
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:17\n' +
+    '    15|                         <label for="productName" class="col-sm-2 col-form-label">Product Name:</label>\r\n' +
+    '    16|                         <div class="col-sm-10">\r\n' +
+    ' >> 17|                             <input type="text" class="form-control" id="productName" name="productName" value="<%= product.productName %>">\r\n' +
+    '    18|                         </div>\r\n' +
+    '    19|                     </div>\r\n' +
+    '    20|                     <div class="mb-4 row">\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'productName')",
   level: 'error',
-  timestamp: '28/11/2023 16:38:40'
+  timestamp: '29/11/2023 12:24:09'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:39:11'
+  timestamp: '29/11/2023 12:24:28'
 }
 {
-  message: 'Cannot apply rules to empty ruleset or the last rule added does not support rule properties',
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 12:24:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 12:33:33'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 12:35:10'
+}
+{
+  message: "Product is deleted but productImg tea-1701194224260.jpg couldn't delete",
   level: 'error',
-  timestamp: '28/11/2023 16:39:16'
+  timestamp: '29/11/2023 12:35:14'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:40:04'
+  timestamp: '29/11/2023 12:35:48'
 }
 {
-  message: 'Cannot apply rules to empty ruleset or the last rule added does not support rule properties',
+  message: "Product is deleted but productImg red-bull-1701249929212.jpg couldn't delete",
   level: 'error',
-  timestamp: '28/11/2023 16:40:06'
+  timestamp: '29/11/2023 12:36:00'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:40:20'
+  timestamp: '29/11/2023 12:37:13'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:42:13'
+  timestamp: '29/11/2023 12:40:27'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:42:28'
+  timestamp: '29/11/2023 12:45:22'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:43:35'
+  timestamp: '29/11/2023 12:52:10'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:44:56'
+  timestamp: '29/11/2023 12:52:55'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:45:38'
+  timestamp: '29/11/2023 13:00:47'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:46:06'
+  timestamp: '29/11/2023 13:03:26'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:47:42'
+  timestamp: '29/11/2023 13:06:12'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:50:04'
+  timestamp: '29/11/2023 13:07:40'
 }
 {
-  message: 'Failed to lookup view "admin/category" in views directory "C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views"',
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 13:08:30'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 13:09:00'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 13:10:04'
+}
+{
+  message: 'Cannot populate path `categoryName` because it is not in your schema. Set the `strictPopulate` option to false to override.',
   level: 'error',
-  timestamp: '28/11/2023 16:50:36'
+  timestamp: '29/11/2023 13:10:18'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 16:50:53'
+  timestamp: '29/11/2023 13:12:50'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 17:00:16'
+  timestamp: '29/11/2023 13:13:14'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:00:50'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:01:21'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:02:49'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:03:47'
-}
-{
-  message: 'category is not defined',
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\products.ejs:34\n' +
+    '    32|                                     </td>\r\n' +
+    '    33|                                     <td><%= product.productName %></td>\r\n' +
+    ' >> 34|                                     <td><% products.categories.forEach(category => { %>\r\n' +
+    '    35|                                         <p><%= category.categoryName %></p>\r\n' +
+    '    36|                                     <% }) %></td>\r\n' +
+    '    37|                                     <td><%= product.productPrice %></td>\r\n' +
+    '\n' +
+    "Cannot read properties of undefined (reading 'forEach')",
   level: 'error',
-  timestamp: '28/11/2023 17:07:37'
+  timestamp: '29/11/2023 13:17:01'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 17:08:37'
+  timestamp: '29/11/2023 13:17:59'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 17:09:39'
+  timestamp: '29/11/2023 13:18:48'
 }
 {
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:10:15'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:11:15'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:12:09'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:12:48'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:13:20'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:13:57'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:14:15'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:17:23'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:18:00'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:18:45'
-}
-{
-  message: 'mongodb connection is complete....',
-  level: 'info',
-  timestamp: '28/11/2023 17:19:21'
-}
-{
-  message: 'Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: mychefdb.categories index: categoryName_1 dup key: { categoryName: "Game" }',
+  message: 'prd is not defined',
   level: 'error',
-  timestamp: '28/11/2023 17:19:46'
+  timestamp: '29/11/2023 13:18:49'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 17:23:04'
+  timestamp: '29/11/2023 13:19:17'
+}
+{
+  message: 'products.categories is not iterable',
+  level: 'error',
+  timestamp: '29/11/2023 13:19:19'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 17:25:58'
+  timestamp: '29/11/2023 13:19:31'
+}
+{
+  message: 'products.categories is not iterable',
+  level: 'error',
+  timestamp: '29/11/2023 13:19:32'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 17:27:14'
+  timestamp: '29/11/2023 13:19:37'
 }
 {
   message: 'mongodb connection is complete....',
   level: 'info',
-  timestamp: '28/11/2023 17:30:39'
+  timestamp: '29/11/2023 13:22:27'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 13:29:02'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 13:29:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 13:30:18'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 14:42:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 14:43:10'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 14:43:27'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 14:53:57'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:48\n' +
+    '    46|                             <div class="mb-4 row">\r\n' +
+    '    47|                                 <h4 class="border-bottom pb-3">Categories</h4>\r\n' +
+    ' >> 48|                                 <% categories.forEach(category => { %>                                 \r\n' +
+    '    49|                                     <div class="form-check">\r\n' +
+    '    50|                                         <input class="form-check-input" type="checkbox"  id="category_<%= category._id %>" name="categories[]">\r\n' +
+    '    51|                                         <label class="form-check-label" for="category_<%= category._id %>"><%= category.categoryName %></label>\r\n' +
+    '\n' +
+    'categories is not defined',
+  level: 'error',
+  timestamp: '29/11/2023 14:58:07'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 14:58:45'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:48\n' +
+    '    46|                             <div class="mb-4 row">\r\n' +
+    '    47|                                 <h4 class="border-bottom pb-3">Categories</h4>\r\n' +
+    ' >> 48|                                 <% categories.forEach(category => { %>                                 \r\n' +
+    '    49|                                     <div class="form-check">\r\n' +
+    '    50|                                         <input class="form-check-input" type="checkbox"  id="category_<%= category._id %>" name="categories[]">\r\n' +
+    '    51|                                         <label class="form-check-label" for="category_<%= category._id %>"><%= category.categoryName %></label>\r\n' +
+    '\n' +
+    'categories is not defined',
+  level: 'error',
+  timestamp: '29/11/2023 14:58:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 14:58:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:03:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:03:44'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:14:30'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:15:14'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:15:34'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:15:54'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:16:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:16:32'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:16:44'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:19:59'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:20:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:20:39'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:21:00'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:22:40'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:23:35'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:24:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:24:20'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:24:26'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:24:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:24:55'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:27:09'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:27:21'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:37:21'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:41:14'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:42:59'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:46:08'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:55:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:56:27'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:59:43'
+}
+{
+  message: 'Cannot populate path `Category` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  level: 'error',
+  timestamp: '29/11/2023 15:59:45'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 15:59:55'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\category-edit.ejs:37\n' +
+    '    35|                 <div class="col-12">\r\n' +
+    '    36|                 <h3 class="text-center mb-5">Products Of Category</h3>\r\n' +
+    ' >> 37|                 <h6>Product Count: <%= product.categories.length %></h6>\r\n' +
+    '    38|                 <hr>\r\n' +
+    '    39|                 <form action="" method="post">\r\n' +
+    '    40|                     <div class="mb-2 category-list-table table-responsive">\r\n' +
+    '\n' +
+    'product is not defined',
+  level: 'error',
+  timestamp: '29/11/2023 16:01:19'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:04:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:08:26'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:15:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:15:31'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:16:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:24:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:26:08'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:26:19'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:27:17'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:32:09'
+}
+{
+  message: "Cannot read properties of undefined (reading 'products')",
+  level: 'error',
+  timestamp: '29/11/2023 16:35:41'
+}
+{
+  message: "Cannot read properties of undefined (reading 'products')",
+  level: 'error',
+  timestamp: '29/11/2023 16:36:08'
+}
+{
+  message: "Cannot read properties of undefined (reading 'products')",
+  level: 'error',
+  timestamp: '29/11/2023 16:36:18'
+}
+{
+  message: "Cannot read properties of undefined (reading 'products')",
+  level: 'error',
+  timestamp: '29/11/2023 16:36:48'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:37:06'
+}
+{
+  message: "Cannot read properties of undefined (reading 'categories')",
+  level: 'error',
+  timestamp: '29/11/2023 16:39:16'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:39:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:50:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:54:05'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:54:53'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:55:28'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:56:23'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 16:59:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:03:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:04:10'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:04:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:05:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:09:08'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:09:31'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:17:35'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:17:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:19:31'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:20:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:21:42'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:26:02'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:26:25'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\role-edit.ejs:19\n' +
+    '    17|                                 <div class="col-xl-10 col-md-12 ">\r\n' +
+    '    18|                                     <label class="visually-hidden" for="roleName">Role Name: </label>\r\n' +
+    ' >> 19|                                     <input type="text" class="form-control" id="roleName" placeholder="role Name" name="roleName" value="<%= role.roleName %>">\r\n' +
+    '    20|                                 </div>\r\n' +
+    '    21|                                 <div class="col-xl-1 col-md-12 text-center">\r\n' +
+    '    22|                                     <button type="submit" class="btn btn-danger ">Create</button>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'roleName')",
+  level: 'error',
+  timestamp: '29/11/2023 17:26:28'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\role-edit.ejs:19\n' +
+    '    17|                                 <div class="col-xl-10 col-md-12 ">\r\n' +
+    '    18|                                     <label class="visually-hidden" for="roleName">Role Name: </label>\r\n' +
+    ' >> 19|                                     <input type="text" class="form-control" id="roleName" placeholder="Role Name" name="roleName" value="<%= role.roleName %>">\r\n' +
+    '    20|                                 </div>\r\n' +
+    '    21|                                 <div class="col-xl-1 col-md-12 text-center">\r\n' +
+    '    22|                                     <button type="submit" class="btn btn-danger ">Create</button>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'roleName')",
+  level: 'error',
+  timestamp: '29/11/2023 17:27:57'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:28:11'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\role-edit.ejs:19\n' +
+    '    17|                                 <div class="col-xl-10 col-md-12 ">\r\n' +
+    '    18|                                     <label class="visually-hidden" for="roleName">Role Name: </label>\r\n' +
+    ' >> 19|                                     <input type="text" class="form-control" id="roleName" placeholder="Role Name" name="roleName" value="<%= role.roleName %>">\r\n' +
+    '    20|                                 </div>\r\n' +
+    '    21|                                 <div class="col-xl-1 col-md-12 text-center">\r\n' +
+    '    22|                                     <button type="submit" class="btn btn-danger ">Create</button>\r\n' +
+    '\n' +
+    "Cannot read properties of null (reading 'roleName')",
+  level: 'error',
+  timestamp: '29/11/2023 17:28:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:28:42'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:28:57'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:37:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:37:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:39:39'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:39:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:44:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:48:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:48:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:49:10'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:51:27'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:51:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:51:55'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '29/11/2023 17:52:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 13:57:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:00:38'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:02:08'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:02:30'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:03:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:03:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:04:06'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:05:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:06:49'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:07:40'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:08:43'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 14:09:08'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:27:33'
+}
+{
+  message: "Cannot read properties of undefined (reading '_id')",
+  level: 'error',
+  timestamp: '01/12/2023 15:29:49'
+}
+{
+  message: "Cannot read properties of undefined (reading '_id')",
+  level: 'error',
+  timestamp: '01/12/2023 15:30:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:31:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:32:10'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:32:23'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:32:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:33:27'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:33:37'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:33:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:34:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:34:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:34:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:34:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:35:07'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:35:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:35:45'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:35:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:36:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:36:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:36:43'
+}
+{
+  message: 'product.categories[0].some is not a function',
+  level: 'error',
+  timestamp: '01/12/2023 15:36:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:37:14'
+}
+{
+  message: "Cannot read properties of undefined (reading '_id')",
+  level: 'error',
+  timestamp: '01/12/2023 15:37:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:37:28'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:37:43'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:38:03'
+}
+{
+  message: "Cannot read properties of undefined (reading 'some')",
+  level: 'error',
+  timestamp: '01/12/2023 15:38:04'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:38:18'
+}
+{
+  message: 'product.categories[0]._id.some is not a function',
+  level: 'error',
+  timestamp: '01/12/2023 15:38:19'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:39:45'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:40:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:40:49'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:42:44'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:43:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 15:43:59'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 16:14:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 16:40:49'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 16:41:27'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:52\n' +
+    '    50|                                         <input class="form-check-input" type="checkbox"  id="category_<%= category._id %>" value="<%= category._id %>" name="categories[]" <% for (const cat of product.categories) { %>\r\n' +
+    '    51|                                             <% const catIdString = cat._id.toString(); %>\r\n' +
+    ' >> 52|                                             <% if (catIdStrings.includes(category._id.toString())) { %>\r\n' +
+    '    53|                                                 checked\r\n' +
+    '    54|                                             <% } %>\r\n' +
+    '    55|                                         <% } %>>\r\n' +
+    '\n' +
+    'catIdStrings is not defined',
+  level: 'error',
+  timestamp: '01/12/2023 16:43:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 16:46:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '01/12/2023 16:47:02'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:11:53'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:12:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:13:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:13:44'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:24:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:25:10'
+}
+{
+  message: 'Category.find is not a function',
+  level: 'error',
+  timestamp: '02/12/2023 12:26:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:27:00'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:31:32'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:50:02'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:55:17'
+}
+{
+  message: 'Failed to lookup view "user/product-list" in views directory "C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views"',
+  level: 'error',
+  timestamp: '02/12/2023 12:55:18'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 12:57:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:08:20'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:08:52'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:09:48'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:10:04'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:10:14'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:10:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:10:53'
+}
+{
+  message: "Cannot read properties of undefined (reading 'products')",
+  level: 'error',
+  timestamp: '02/12/2023 13:10:55'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:11:29'
+}
+{
+  message: "Cannot read properties of undefined (reading 'products')",
+  level: 'error',
+  timestamp: '02/12/2023 13:11:34'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:11:48'
+}
+{
+  message: "Cannot read properties of undefined (reading '_id')",
+  level: 'error',
+  timestamp: '02/12/2023 13:11:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:12:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:12:19'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:52\n' +
+    '    50|                                         <input class="form-check-input" type="checkbox"  id="category_<%= category._id %>" value="<%= category._id %>" name="categories[]" <% for (const cat of product.categories) { %>\r\n' +
+    '    51|                                             <% const catIdString = cat._id.toString(); %>\r\n' +
+    ' >> 52|                                             <% if (catIdStrings.includes(category._id.toString())) { %>\r\n' +
+    '    53|                                                 checked\r\n' +
+    '    54|                                             <% } %>\r\n' +
+    '    55|                                         <% } %>>\r\n' +
+    '\n' +
+    'catIdStrings is not defined',
+  level: 'error',
+  timestamp: '02/12/2023 13:12:43'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:16:09'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:27:39'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:40:18'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:41:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:45:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:45:33'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:47:02'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:48:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:49:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:51:33'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:53:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:53:06'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 13:53:20'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:01:24'
+}
+{
+  message: 'role_id is not defined',
+  level: 'error',
+  timestamp: '02/12/2023 14:01:53'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:02:15'
+}
+{
+  message: 'role_id is not defined',
+  level: 'error',
+  timestamp: '02/12/2023 14:02:17'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:03:03'
+}
+{
+  message: 'role_id is not defined',
+  level: 'error',
+  timestamp: '02/12/2023 14:03:04'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:03:21'
+}
+{
+  message: 'role_id is not defined',
+  level: 'error',
+  timestamp: '02/12/2023 14:03:21'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:03:33'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:03:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:03:54'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:04:49'
+}
+{
+  message: 'role is not defined',
+  level: 'error',
+  timestamp: '02/12/2023 14:05:02'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:05:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:10:09'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:10:34'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:10:49'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:10:56'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:11:59'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:12:36'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:13:37'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:14:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:15:35'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:16:52'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:17:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:18:52'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:19:35'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:21:01'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\product-edit.ejs:52\n' +
+    '    50|                                         <input class="form-check-input" type="checkbox"\r\n' +
+    '    51|                                           id="category_<%= category._id %>" value="<%= category._id %>" name="categories[]"\r\n' +
+    ' >> 52|                                           <%= product.categories.some(cat=>(cat._id.toString()===category._id.toString()) ? checked:"") %> >\r\n' +
+    '    53|                                         <label class="form-check-label" for="category_<%= category._id %>"><%= category.categoryName %></label>\r\n' +
+    '    54|                                     </div>\r\n' +
+    '    55|                                 <% }) %>\r\n' +
+    '\n' +
+    'checked is not defined',
+  level: 'error',
+  timestamp: '02/12/2023 14:24:53'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:29:57'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:31:02'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:31:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:33:31'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 14:34:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:03:33'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:04:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:04:40'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:06:05'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:07:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:08:16'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:08:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:09:10'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\products.ejs:37\n' +
+    '    35|                                         </td>\r\n' +
+    '    36|                                         <td><p><%= product.productName %></p></td>\r\n' +
+    ' >> 37|                                         <td><% for (let category of product.categories) { %>\r\n' +
+    '    38|                                             <li><%= category.categoryName %></li>\r\n' +
+    '    39|                                           <% } %></td>\r\n' +
+    '    40|                                         <td><%= product.productPrice %></td>\r\n' +
+    '\n' +
+    'product.categories is not iterable',
+  level: 'error',
+  timestamp: '02/12/2023 15:09:13'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:11:21'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:13:14'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:18:08'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:22:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:27:06'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:29:31'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:29:48'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:30:16'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:32:32'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:33:42'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:34:28'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:35:49'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:39:31'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:47:00'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '02/12/2023 15:50:39'
 }

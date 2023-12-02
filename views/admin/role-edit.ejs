@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body>
+    <%- include('../partials/navbar') %>
+    <div class="container">
+        <div class="row m-5">
+            <div class="col-12">
+                <!-- create-role -->
+                <div class="mb-4">
+                    <div class="card create-category-card">
+                        <div class="card-header">Edit Role</div>
+                        <div class="card-body">
+                            <form action="/admin/role/edit/<%= role.url %>" method="post" class="row gx-3 gy-2 align-items-center justify-content-center">
+                                <div class="col-xl-10 col-md-12 ">
+                                    <label class="visually-hidden" for="roleName">Role Name: </label>
+                                    <input type="text" class="form-control" id="roleName" placeholder="Role Name" name="roleName" value="<%= role.roleName %>">
+                                </div>
+                                <div class="col-xl-1 col-md-12 text-center">
+                                    <input type="hidden" name="roleId" value="<%= role._id %>">
+                                    <input type="hidden" name="roleUrl" value="<%= role.url%>">
+                                    <button type="submit" class="btn btn-danger ">Update</button>
+                                </div>
+                            </form>    
+                        </div>
+                    </div>
+                </div>
+                <%- include('../partials/alert') %>
+                <h3 class="text-center my-4"><%= title %></h3>
+
+            </div>
+        </div>
+    </div>
+
+    <%- include('../partials/script') %>
+</body>
+</html>

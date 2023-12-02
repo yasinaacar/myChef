@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body>
+    <%- include('../partials/navbar') %>
+    
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-12">
+                <div class="row d-flex justify-content-center">
+                    <% categories.forEach(category => { %>                     
+                        <div class="col-md-5 col-xl-3 col-lg-4 mb-3 d-flex justify-content-center">
+                            <a href="/menu/<%= category.url %>" style="text-decoration: none; color: #333;" >
+                                <div class="card" style="width: 18rem; height: 16rem;">
+                                    <img src="/static/images/<%= category.categoryImg %>" class="card-img-top img-fluid" alt="<%= category.categoryImg %>">
+                                    <div class="card-body">
+                                      <h5 class="card-title text-center border-top pt-3" style="letter-spacing: 1px; font-style: italic;"><%= category.categoryName %></h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    <% }) %>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include('../partials/script') %>
+</body>
+</html>

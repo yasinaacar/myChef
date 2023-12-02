@@ -12,6 +12,7 @@ const categorySchema=new Schema({
         unique: true
     },
     url: String,
+    products:[{type: Schema.Types.ObjectId, ref:"Product"}]
 });
 
 const Category=model("Category",categorySchema);
