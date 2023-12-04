@@ -1,5 +1,4 @@
 node_modules/
+logs/
 development.json
 production.json
-info.log
-logs.log

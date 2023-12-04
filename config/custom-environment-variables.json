@@ -1,5 +1,9 @@
 {
     "db":{
         "password":"DB_PASSWORD"
-    }
+    },
+    "email":{
+        "password": "MAIL_PASSWORD"
+    },
+    "jwtKey":"JWT_SECRET_TOKEN"
 }

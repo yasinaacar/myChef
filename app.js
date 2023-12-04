@@ -26,8 +26,7 @@ app.use(session({
     },
     store: store
 }))
-
-
+app.use(require("./middlewares/locals"));
 //routes
 require("./startup/routes")(app);
 

@@ -567,3 +567,145 @@
   level: 'error',
   timestamp: '02/12/2023 15:09:13'
 }
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\register.ejs:49\n' +
+    '    47|                                 </div>\r\n' +
+    '    48|                             </div>\r\n' +
+    ' >> 49|                             <% if (isAccept=="on") { %>                             \r\n' +
+    '    50|                                 <div class="buttons text-center">\r\n' +
+    '    51|                                     <button type="submit" class="btn btn-danger">Sign Up</button>\r\n' +
+    '    52|                                 </div>\r\n' +
+    '\n' +
+    'isAccept is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 14:48:36'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\register.ejs:49\n' +
+    '    47|                                 </div>\r\n' +
+    '    48|                             </div>\r\n' +
+    ' >> 49|                             <% if (isAccept==checked) { %>                             \r\n' +
+    '    50|                                 <div class="buttons text-center">\r\n' +
+    '    51|                                     <button type="submit" class="btn btn-danger">Sign Up</button>\r\n' +
+    '    52|                                 </div>\r\n' +
+    '\n' +
+    'isAccept is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 14:48:57'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\register.ejs:18\n' +
+    '    16|                             <div class="mb-3">\r\n' +
+    '    17|                               <label for="fullname" class="form-label">Fullname:</label>\r\n' +
+    ' >> 18|                               <input type="text" class="form-control" id="fullname" name="fullname" value="<%= fullname %>">\r\n' +
+    '    19|                             </div>\r\n' +
+    '    20|                             <div class="mb-3">\r\n' +
+    '    21|                                 <label for="email" class="form-label">E-Mail:</label>\r\n' +
+    '\n' +
+    'fullname is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 15:21:22'
+}
+{
+  message: 'Cannot populate path `Role` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  level: 'error',
+  timestamp: '04/12/2023 16:28:46'
+}
+{
+  message: 'Operation `users.findOne()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: '04/12/2023 17:07:13'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\users.ejs:7\n' +
+    '    5| </head>\r\n' +
+    '    6| <body>\r\n' +
+    " >> 7|     <%- include('../partials/navbar') %>\r\n" +
+    '    8|     <div class="container">\r\n' +
+    '    9|         <div class="row m-5">\r\n' +
+    '    10|             <div class="col-12">\r\n' +
+    '\n' +
+    'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\partials\\navbar.ejs:12\n' +
+    '    10|             <a class="nav-link" aria-current="page" href="/menu">Menu</a>\r\n' +
+    '    11|           </li>\r\n' +
+    ' >> 12|           <% if (isAuth) { %>           \r\n' +
+    '    13|             <li class="nav-item">\r\n' +
+    '    14|               <a class="nav-link" aria-current="page" href="/admin/categories">Categories</a>\r\n' +
+    '    15|             </li>\r\n' +
+    '\n' +
+    'isAuth is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 17:17:11'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\users.ejs:7\n' +
+    '    5| </head>\r\n' +
+    '    6| <body>\r\n' +
+    " >> 7|     <%- include('../partials/navbar') %>\r\n" +
+    '    8|     <div class="container">\r\n' +
+    '    9|         <div class="row m-5">\r\n' +
+    '    10|             <div class="col-12">\r\n' +
+    '\n' +
+    'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\partials\\navbar.ejs:12\n' +
+    '    10|             <a class="nav-link" aria-current="page" href="/menu">Menu</a>\r\n' +
+    '    11|           </li>\r\n' +
+    ' >> 12|           <% if (isAuth) { %>           \r\n' +
+    '    13|             <li class="nav-item">\r\n' +
+    '    14|               <a class="nav-link" aria-current="page" href="/admin/categories">Categories</a>\r\n' +
+    '    15|             </li>\r\n' +
+    '\n' +
+    'isAuth is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 17:18:44'
+}
+{
+  message: 'Failed to lookup view "aauth/reset-password" in views directory "C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views"',
+  level: 'error',
+  timestamp: '04/12/2023 17:54:48'
+}
+{
+  message: 'Failed to lookup view "aauth/reset-password" in views directory "C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views"',
+  level: 'error',
+  timestamp: '04/12/2023 17:54:48'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\reset-password.ejs:8\n' +
+    '    6| <body>\r\n' +
+    '    7| \r\n' +
+    " >> 8|     <%- include('../partials/nav') %>\r\n" +
+    '    9|     \r\n' +
+    '    10|     <div class="container d-flex align-items-center justify-content-center" style="height: 100vh;">\r\n' +
+    '    11|         <div class="row w-75">\r\n' +
+    '\n' +
+    'Could not find the include file "../partials/nav"',
+  level: 'error',
+  timestamp: '04/12/2023 17:55:21'
+}
+{
+  message: 'Expected "payload" to be a plain object.',
+  level: 'error',
+  timestamp: '04/12/2023 18:42:07'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\new-password.ejs:22\n' +
+    '    20|                 </div>\r\n' +
+    '    21|                 <form method="post" style="padding: 10px;" action="/auth/new-password">\r\n' +
+    ' >> 22|                     <input type="hidden" name="userId" value="<%= user.id %>">\r\n' +
+    '    23|                     <input type="hidden" name="token" value="<%= token %>">\r\n' +
+    '    24|                     <div class="row mb-3">\r\n' +
+    '    25|                         <label for="password" class="ms-2 col-sm-2">Password :</label>\r\n' +
+    '\n' +
+    'user is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 19:02:51'
+}
+{
+  message: 'originalUrl is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 20:44:51'
+}
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '04/12/2023 21:14:33'
+}
