@@ -5,6 +5,7 @@ const logger=require("../startup/logger");
 const { Category, validateCategory }=require("../models/category");
 const { Product, validateProduct }=require("../models/product");
 const { Role, validateRole } = require("../models/role");
+const { User, validateUser } = require("../models/user");
 
 //Category Operations
 exports.post_category_create=async(req,res)=>{
@@ -384,6 +385,20 @@ exports.get_roles=async(req,res)=>{
     const roles= await Role.find();
     return res.render("admin/roles", {
         title: "Roles",
+        roles: roles,
+        message: message
+    })
+}
+
+//User Operations
+exports.get_users=async(req,res)=>{
+    const message=req.session.message;
+    delete req.session.message;
+    const users= await User.find().populate("roles", "roleName");
+    const roles=await Role.find();
+    return res.render("admin/users", {
+        title: "Users",
+        users: users,
         roles: roles,
         message: message
     })

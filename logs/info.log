@@ -2297,3 +2297,940 @@
   level: 'info',
   timestamp: '02/12/2023 15:50:39'
 }
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:16:16'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:16:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:26:01'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:33:05'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:39:07'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:41:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:43:39'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:45:48'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:48:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 09:58:06'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 14:42:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 14:44:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 14:46:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 14:47:35'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\register.ejs:49\n' +
+    '    47|                                 </div>\r\n' +
+    '    48|                             </div>\r\n' +
+    ' >> 49|                             <% if (isAccept=="on") { %>                             \r\n' +
+    '    50|                                 <div class="buttons text-center">\r\n' +
+    '    51|                                     <button type="submit" class="btn btn-danger">Sign Up</button>\r\n' +
+    '    52|                                 </div>\r\n' +
+    '\n' +
+    'isAccept is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 14:48:36'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\register.ejs:49\n' +
+    '    47|                                 </div>\r\n' +
+    '    48|                             </div>\r\n' +
+    ' >> 49|                             <% if (isAccept==checked) { %>                             \r\n' +
+    '    50|                                 <div class="buttons text-center">\r\n' +
+    '    51|                                     <button type="submit" class="btn btn-danger">Sign Up</button>\r\n' +
+    '    52|                                 </div>\r\n' +
+    '\n' +
+    'isAccept is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 14:48:57'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 14:54:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:03:32'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:03:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:20:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:20:33'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\register.ejs:18\n' +
+    '    16|                             <div class="mb-3">\r\n' +
+    '    17|                               <label for="fullname" class="form-label">Fullname:</label>\r\n' +
+    ' >> 18|                               <input type="text" class="form-control" id="fullname" name="fullname" value="<%= fullname %>">\r\n' +
+    '    19|                             </div>\r\n' +
+    '    20|                             <div class="mb-3">\r\n' +
+    '    21|                                 <label for="email" class="form-label">E-Mail:</label>\r\n' +
+    '\n' +
+    'fullname is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 15:21:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:24:04'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:25:38'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:29:23'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:29:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:31:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:31:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:34:28'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:35:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:36:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:37:06'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:37:20'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:38:23'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:45:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:48:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:49:06'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:51:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 15:52:39'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:08:10'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:19:13'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:20:13'
+}
+{
+  message: 'E-mail is sended to new user (cayeses585@newcupon.com) More Info: <86c3f5e5-413f-e41a-6c59-77f8e2fcb94e@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 16:20:33'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:27:37'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:27:52'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:28:25'
+}
+{
+  message: 'Cannot populate path `Role` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  level: 'error',
+  timestamp: '04/12/2023 16:28:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:29:17'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:30:01'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:30:44'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:31:04'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:31:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:31:54'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:32:16'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:33:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:42:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:42:42'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:43:23'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:46:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:46:33'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:54:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 16:54:26'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:01:55'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:02:39'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:03:33'
+}
+{
+  message: 'Operation `users.findOne()` buffering timed out after 10000ms',
+  level: 'error',
+  timestamp: '04/12/2023 17:07:13'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:07:16'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:07:56'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:08:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:10:54'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:12:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:12:53'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:14:53'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:16:09'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\users.ejs:7\n' +
+    '    5| </head>\r\n' +
+    '    6| <body>\r\n' +
+    " >> 7|     <%- include('../partials/navbar') %>\r\n" +
+    '    8|     <div class="container">\r\n' +
+    '    9|         <div class="row m-5">\r\n' +
+    '    10|             <div class="col-12">\r\n' +
+    '\n' +
+    'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\partials\\navbar.ejs:12\n' +
+    '    10|             <a class="nav-link" aria-current="page" href="/menu">Menu</a>\r\n' +
+    '    11|           </li>\r\n' +
+    ' >> 12|           <% if (isAuth) { %>           \r\n' +
+    '    13|             <li class="nav-item">\r\n' +
+    '    14|               <a class="nav-link" aria-current="page" href="/admin/categories">Categories</a>\r\n' +
+    '    15|             </li>\r\n' +
+    '\n' +
+    'isAuth is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 17:17:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:17:52'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:18:31'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\admin\\users.ejs:7\n' +
+    '    5| </head>\r\n' +
+    '    6| <body>\r\n' +
+    " >> 7|     <%- include('../partials/navbar') %>\r\n" +
+    '    8|     <div class="container">\r\n' +
+    '    9|         <div class="row m-5">\r\n' +
+    '    10|             <div class="col-12">\r\n' +
+    '\n' +
+    'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\partials\\navbar.ejs:12\n' +
+    '    10|             <a class="nav-link" aria-current="page" href="/menu">Menu</a>\r\n' +
+    '    11|           </li>\r\n' +
+    ' >> 12|           <% if (isAuth) { %>           \r\n' +
+    '    13|             <li class="nav-item">\r\n' +
+    '    14|               <a class="nav-link" aria-current="page" href="/admin/categories">Categories</a>\r\n' +
+    '    15|             </li>\r\n' +
+    '\n' +
+    'isAuth is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 17:18:44'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:20:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:20:14'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:21:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:41:45'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:42:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:42:42'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:43:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:46:12'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:46:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:54:32'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:54:45'
+}
+{
+  message: 'Failed to lookup view "aauth/reset-password" in views directory "C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views"',
+  level: 'error',
+  timestamp: '04/12/2023 17:54:48'
+}
+{
+  message: 'Failed to lookup view "aauth/reset-password" in views directory "C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views"',
+  level: 'error',
+  timestamp: '04/12/2023 17:54:48'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 17:55:21'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\reset-password.ejs:8\n' +
+    '    6| <body>\r\n' +
+    '    7| \r\n' +
+    " >> 8|     <%- include('../partials/nav') %>\r\n" +
+    '    9|     \r\n' +
+    '    10|     <div class="container d-flex align-items-center justify-content-center" style="height: 100vh;">\r\n' +
+    '    11|         <div class="row w-75">\r\n' +
+    '\n' +
+    'Could not find the include file "../partials/nav"',
+  level: 'error',
+  timestamp: '04/12/2023 17:55:21'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:00:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:08:01'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:08:23'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:10:23'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:10:52'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:12:30'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:12:42'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:19:16'
+}
+{
+  message: 'E-mail is sended for reset password to this (yasinaacar@outlook.com) adress More Info: <d6039ce6-7c9e-6e59-c633-1d4ca1037e88@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:19:26'
+}
+{
+  message: 'E-mail is sended to new user (ezfyuuuzpihfadlxhr@ckptr.com) More Info: <963e2c7b-7151-733f-5d56-3860848fd404@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:20:50'
+}
+{
+  message: 'E-mail is sended for reset password to this (ezfyuuuzpihfadlxhr@ckptr.com) adress More Info: <b4ffc6ae-42dd-0384-80ab-d487586f6364@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:21:19'
+}
+{
+  message: 'E-mail is sended for reset password to this (ezfyuuuzpihfadlxhr@ckptr.com) adress More Info: <ba03259b-eef3-b04a-e559-50c2a9b4aa93@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:21:49'
+}
+{
+  message: 'E-mail is sended to new user (fisecap880@newcupon.com) More Info: <388f7769-3cbf-014f-32d3-2f49bcba5d0c@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:23:01'
+}
+{
+  message: 'E-mail is sended for reset password to this (fisecap880@newcupon.com) adress More Info: <6ce12bb8-2fc5-27ea-7f21-d2bd229f108d@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:23:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:41:52'
+}
+{
+  message: 'Expected "payload" to be a plain object.',
+  level: 'error',
+  timestamp: '04/12/2023 18:42:07'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:42:35'
+}
+{
+  message: 'E-mail is sended for reset password to this (yasinaacar@outlook.com) adress More Info: <433bf95d-c79f-d4a0-9d95-463647e5be51@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:42:40'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:44:04'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:44:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:45:44'
+}
+{
+  message: 'E-mail is sended to new user (dibimar763@newcupon.com) More Info: <83bd5c3b-5294-01b6-cead-6b9775ed49f7@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:46:09'
+}
+{
+  message: 'E-mail is sended for reset password to this (dibimar763@newcupon.com) adress More Info: <5645269d-e118-0948-75a5-87ffa11c537e@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:46:19'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:47:38'
+}
+{
+  message: 'E-mail is sended for reset password to this (dibimar763@newcupon.com) adress More Info: <a737b609-cf38-c22e-5632-b5f2abf10920@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:47:49'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:52:32'
+}
+{
+  message: 'E-mail is sended for reset password to this (dibimar763@newcupon.com) adress More Info: <b6951005-7e56-c96b-1a13-54cbd70fed1b@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:52:44'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 18:57:00'
+}
+{
+  message: 'E-mail is sended for reset password to this (dibimar763@newcupon.com) adress More Info: <25fbaf5d-756f-0115-8f88-3c8ad8e102cd@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 18:57:21'
+}
+{
+  message: 'C:\\Users\\Yasin\\OneDrive\\Masaüstü\\Web Geliştirme\\Back-End\\Örnek Projeler\\myChef\\views\\auth\\new-password.ejs:22\n' +
+    '    20|                 </div>\r\n' +
+    '    21|                 <form method="post" style="padding: 10px;" action="/auth/new-password">\r\n' +
+    ' >> 22|                     <input type="hidden" name="userId" value="<%= user.id %>">\r\n' +
+    '    23|                     <input type="hidden" name="token" value="<%= token %>">\r\n' +
+    '    24|                     <div class="row mb-3">\r\n' +
+    '    25|                         <label for="password" class="ms-2 col-sm-2">Password :</label>\r\n' +
+    '\n' +
+    'user is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 19:02:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 19:02:52'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:05:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:08:09'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:11:05'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:19:44'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:23:55'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:24:11'
+}
+{
+  message: 'E-mail is sended to new user (bamey39242@newcupon.com) More Info: <055446bf-eb8f-d0e0-259c-18a91ccdd527@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 20:24:49'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:25:14'
+}
+{
+  message: 'E-mail is sended for reset password to this (bamey39242@newcupon.com) adress More Info: <3f71d3c2-af94-23cb-fd67-d08e658d8543@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 20:25:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:26:43'
+}
+{
+  message: 'E-mail is sended for reset password to this (bamey39242@newcupon.com) adress More Info: <f8215db9-b768-e78f-a593-55e6283783ec@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 20:29:05'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:33:41'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:36:57'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:39:17'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:40:36'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:44:48'
+}
+{
+  message: 'originalUrl is not defined',
+  level: 'error',
+  timestamp: '04/12/2023 20:44:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:45:05'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:45:38'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:45:54'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:49:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:50:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:52:16'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:52:46'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:53:28'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:55:23'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:56:36'
+}
+{
+  message: 'E-mail is sended to new user (regaka9536@lanxi8.com) More Info: <7c8accd7-7cc8-839d-3cef-213a150ab6ea@outlook.com>',
+  level: 'info',
+  timestamp: '04/12/2023 20:57:05'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 20:59:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:00:18'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:02:10'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:03:43'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:07:43'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:09:49'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:10:34'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:11:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:12:34'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:13:27'
+}
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '04/12/2023 21:14:33'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:18:56'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:19:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:21:14'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:21:25'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:22:26'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:23:35'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:23:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:24:28'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:24:57'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '04/12/2023 21:29:11'
+}
