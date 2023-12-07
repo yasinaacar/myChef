@@ -709,3 +709,23 @@
   level: 'error',
   timestamp: '04/12/2023 21:14:33'
 }
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '05/12/2023 15:03:12'
+}
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '05/12/2023 15:04:08'
+}
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '05/12/2023 15:04:36'
+}
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '05/12/2023 15:07:08'
+}

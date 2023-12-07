@@ -6,6 +6,7 @@ const { Category, validateCategory }=require("../models/category");
 const { Product, validateProduct }=require("../models/product");
 const { Role, validateRole } = require("../models/role");
 const { User, validateUser } = require("../models/user");
+const { Table, validateTable } = require("../models/table");
 
 //Category Operations
 exports.post_category_create=async(req,res)=>{
@@ -403,3 +404,70 @@ exports.get_users=async(req,res)=>{
         message: message
     })
 }
+
+//Table Operations
+exports.post_table_create=async(req,res)=>{
+    const tableName=req.body.tableName;
+    try {
+
+        const validate=await validateTable(req.body);
+
+        if(validate.error){
+            req.session.message={text:`Table Name not be empty and must contain minimum 1 character`, class:"warning"};
+            return res.redirect("/admin/tables");
+        }
+
+        const table=await Table.create({tableName: tableName, url: slugfield(tableName)});
+        table.tableCode=generateCode("TBL");
+        await table.save();
+
+        req.session.message={text:`${tableName} is added to table`, class:"success"};
+        return res.redirect("/admin/tables");
+
+        
+    } catch (err) {
+        if(err.code==11000){
+            req.session.message={text:`"${tableName}" name is already exist to table. Note: İf u thinking have a error please contact developer`, class:"warning"};
+            return res.redirect("/admin/tables");
+        }
+    }
+};
+exports.post_table_edit=async(req,res)=>{
+    const tableId=req.body.tableId;
+    const tableName=req.body.tableName;
+    
+    try {
+        const validate=await validateTable({tableName});
+
+        if(validate.error){
+            req.session.message={text:`Table Name not be empty and must contain minimum 1 character`, class:"warning"};
+            return res.redirect("/admin/tables");
+        };
+
+        await Table.findByIdAndUpdate(tableId,{tableName:tableName, url:slugfield(tableName)});
+
+        req.session.message={text:`The table named ${tableName} is updated`, class:"success"};
+        return res.redirect("/admin/tables")
+
+    } catch (err) {
+        console.log(err)
+    }
+};
+exports.post_table_delete=async(req,res)=>{
+    const tableId=req.body.tableId;
+    
+    await Table.findByIdAndDelete(tableId);
+    const tableName=req.body.tableName;
+    req.session.message={text:`The table named ${tableName} was deleted`, class:"danger"};
+    return res.redirect("/admin/tables");
+};
+exports.get_tables=async(req,res)=>{
+    const message=req.session.message;
+    delete req.session.message;
+    const tables=await Table.find();
+    return res.render("admin/tables",{
+        title: "Tables",
+        message: message,
+        tables: tables
+    })
+};

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body>
+    <%- include('../partials/navbar') %>
+    <div class="container">
+        <div class="row mt-5">
+            <%- include('../partials/alert') %>
+            <div class="col-md-12">
+                <!-- add-table -->
+                <div class="create-vehicleType">
+                    <div class="card">
+                        <div class="card-header bg-danger text-light">Create Table</div>
+                        <div class="card-body">
+                          <div class="row">
+                            <form action="/admin/table/create" method="post" class="d-flex">
+                                <div class="col-md-11">
+                                  <input type="text" class="form-control" name="tableName" placeholder="Table Name">
+                                </div>
+                                <div class="col-md-1 ms-4">
+                                    <button type="submit" class="btn btn-danger">Create</button>
+                                </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-striped table-hover table-bordered mt-5">
+                        <thead>
+                            <tr>
+                                <th>Table Code</th>
+                                <th>Table Name</th>
+                                <th style="width: 200px;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <% tables.forEach(table => { %>
+                                <tr>
+                                    <td><%= table.tableCode%></td>
+                                    <td><%= table.tableName %></td>
+                                    <td>
+                                        <div class="table-buttons">
+                                            <!-- update-table-panel -->
+                                            <a href="/admin/table/edit/<%= table._id%>"  data-bs-toggle="offcanvas" data-bs-target="#offcanvas_<%= table._id%>" aria-controls="offcanvasRight"><i class="fa-solid fa-pen-to-square"></i></a>
+                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas_<%= table._id%>" aria-labelledby="offcanvasRightLabel">
+                                                <div class="offcanvas-header">
+                                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Table Edit</h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                </div>
+                                                <div class="offcanvas-body">
+                                                    <label for="tableName">Table Name: </label>
+                                                    <form action="/admin/table/edit/<%= table._id %>" method="post" class="d-flex justify-content-center align-items-center" >
+                                                        <input type="text" class="form-control mt-2" id="tableName" name="tableName" value="<%= table.tableName %>">
+                                                        <input type="hidden" name="tableId" value="<%= table._id %>">
+                                                        <button type="submit" class="btn ms-2 mt-2 btn-danger">Update</button>
+                                                    </form>
+
+                                                </div>
+                                            </div>
+                                            <!-- delete-table-panel -->
+                                            <a href="/admin/table/delete/<%= table.id %>" class="deleteBtn" data-bs-toggle="modal" data-bs-target="#modal_<%= table.id %>"><i class="fa-solid fa-trash"></i></a>
+                                            <div class="modal fade" id="modal_<%= table.id %>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                          <h1 class="modal-title fs-5" id="exampleModalLabel">Delete Table</h1>
+                                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body table-responsive">
+                                                            <table class="table table-striped table-hover table-bordered mt-5">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>#ID</th>
+                                                                        <th>Araç Türü</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td><%= table.tableCode%></td>
+                                                                        <td><%= table.tableName %></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                            <form action="/admin/table/delete/<%= table.id %>" method="post">
+                                                                <input type="hidden" name="tableId" value="<%= table.id %>">
+                                                                <input type="hidden" name="tableName" value="<%= table.tableName %>">
+                                                                <button type="submit" class="btn btn-danger">Delete</button>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            <% }) %>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('../partials/script') %>
+</body>
+</html>

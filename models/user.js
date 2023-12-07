@@ -17,7 +17,9 @@ const userSchmea=new Schema({
         type: String,
         required: true
     },
-    phone: String,
+    phone: {
+        type: String,
+    },
     gender: Boolean,
     token: String,
     tokenExpiration: Date,

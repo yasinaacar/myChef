@@ -3234,3 +3234,328 @@
   level: 'info',
   timestamp: '04/12/2023 21:29:11'
 }
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 14:48:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 14:50:32'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 14:51:32'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 14:53:09'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 14:53:53'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 14:56:15'
+}
+{
+  message: 'E-mail is sended to new user (yasin44acar@gmail.com) More Info: <77107079-7f00-c6e7-3fa3-ab99d50b5128@outlook.com>',
+  level: 'info',
+  timestamp: '05/12/2023 14:57:00'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:00:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:01:09'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:03:03'
+}
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '05/12/2023 15:03:12'
+}
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '05/12/2023 15:04:08'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:04:09'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:04:32'
+}
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '05/12/2023 15:04:36'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:07:03'
+}
+{
+  message: "Cannot read properties of undefined (reading 'includes')",
+  level: 'error',
+  timestamp: '05/12/2023 15:07:08'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:07:17'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:07:56'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:12:18'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:13:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:17:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:18:09'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:20:54'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:22:20'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:23:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:23:48'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:24:13'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:26:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:27:16'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:27:48'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:28:18'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:32:24'
+}
+{
+  message: 'E-mail is sended to new user (denemepau@gmail.com) More Info: <607245bc-b467-c2df-fc24-8d1327e89db1@outlook.com>',
+  level: 'info',
+  timestamp: '05/12/2023 15:32:34'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:33:33'
+}
+{
+  message: 'E-mail is sended to new user (info@mehmetkaya.com) More Info: <41f2b800-dcfa-f000-9851-ad96b0333d41@outlook.com>',
+  level: 'info',
+  timestamp: '05/12/2023 15:33:52'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:38:20'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '05/12/2023 15:38:35'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 10:53:04'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 10:54:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 10:54:33'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 10:56:26'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 11:06:56'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 11:07:22'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 11:22:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 11:28:29'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 11:29:11'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 11:52:15'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:11:58'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:13:03'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:13:40'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:18:21'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:19:26'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:20:27'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:35:05'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:35:24'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:37:02'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:37:47'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:40:02'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:41:06'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:41:50'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:43:42'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:45:51'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:46:31'
+}
+{
+  message: 'mongodb connection is complete....',
+  level: 'info',
+  timestamp: '07/12/2023 12:46:40'
+}

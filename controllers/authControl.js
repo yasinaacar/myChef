@@ -6,6 +6,7 @@ const emailSender=require("../helpers/emailSender");
 const config=require("config");
 const logger=require("../startup/logger");
 const jwt=require("jsonwebtoken");
+const isAuth = require("../middlewares/isAuth");
 
 exports.get_register=async(req,res)=>{
     const message=req.session.message;
@@ -54,7 +55,9 @@ exports.post_register=async(req,res)=>{
     } catch (err) {
         console.log(err);
         if(err.code==11000){
-            req.session.message={text:`"${email} is already exist"`, class:"warning"};
+            if(err.keyValue.email){
+                req.session.message={text:`"${email} this email already exist"`, class:"warning"};
+            }
             return res.redirect("/auth/register");
         }
     }
@@ -71,9 +74,9 @@ exports.get_login=async(req,res)=>{
 };
 exports.post_login=async(req,res)=>{
     const url=req.query.returnUrl;
-    console.log(url)
     const email=req.body.email;
     const password=req.body.password;
+    
 
     const validate=await validateUserLogin(req.body);
 
@@ -93,13 +96,16 @@ exports.post_login=async(req,res)=>{
         req.session.message={text: `Wrong Password `, class:"warning"};
         return res.redirect("/auth/login");
     }
+    if(isAuth){
+        req.session.isAuth=false;
+    }
     req.session.isAuth=true;
     req.session.fullname=user.fullname;
     req.session.userId=user._id;
     req.session.roles=user.roles.map((role)=>role["roleName"]);
-    req.session.isAccess="admin";
-    console.log(req.session.roles)
-    console.log("Hesaba Girildi")
+    if(req.session.roles.includes("admin")){
+        req.session.isAdmin="admin"
+    }
     return res.redirect(url==undefined ? "/menu":url);
 };
 
