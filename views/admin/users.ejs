@@ -32,6 +32,50 @@
                                             <li><%= role.roleName %></li>
                                         <% } %>
                                     </td>
+                                    <td>
+                                        <div class="table-buttons">
+                                            <!-- update-table-panel -->
+                                            <a href="/admin/user/edit/<%= user._id%>"  data-bs-toggle="offcanvas" data-bs-target="#offcanvas_<%= user._id%>" aria-controls="offcanvasRight"><i class="fa-solid fa-pen-to-square"></i></a>
+                                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas_<%= user._id%>" aria-labelledby="offcanvasRightLabel">
+                                                <div class="offcanvas-header">
+                                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">User Edit</h5>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                                </div>
+                                                <div class="offcanvas-body mx-4">
+                                                    <div class="row mb-3">
+                                                        <label for="userName">User Name: </label>
+                                                        <input type="text" class="form-control mt-2" id="userName" name="userName" value="<%= user.fullname %>" disabled>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="email">E-Mail: </label>
+                                                        <input type="email" class="form-control mt-2" id="email" name="email" value="<%= user.email %>" disabled>
+                                                    </div>
+                                                    <div class="row mb-3">
+                                                        <label for="phone">Phone: </label>
+                                                        <input type="tel" class="form-control mt-2" id="phone" name="phone" value="<%= user.phone %>" disabled>
+                                                    </div>
+                                                    <form action="/admin/user/edit/<%= user._id %>" method="post" >
+                                                        <div class="row my-3">
+                                                            <h6 class="border-bottom pb-2">Roles</h6>
+                                                            <% roles.forEach(role => { %>                                 
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                      id="role_<%= role._id %>" value="<%= role._id %>" name="roleIds[]"  <% if (user.roles.some(rol => rol._id.toString() === role._id.toString())) { %>
+                                                                        checked
+                                                                    <% } %>>
+                                                                    <label class="form-check-label" for="role_<%= role._id %>"><%= role.roleName %></label>
+                                                                </div>
+                                                            <% }) %>
+                                                        </div>
+                                                        <input type="hidden" name="userId" value="<%= user._id %>">
+                                                        <input type="hidden" name="userCode" value="<%= user.userCode %>">
+                                                        <button type="submit" class="btn ms-2 mt-2 btn-danger">Update</button>
+                                                    </form>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
                                 </tr>
                             <% }) %>
                         </tbody>

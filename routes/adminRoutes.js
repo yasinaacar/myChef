@@ -26,10 +26,12 @@ router.get("/products", isAuth, isAdmin, adminController.get_products);
 router.post("/role/create", isAuth, isAdmin, adminController.post_role_create);
 router.get("/role/edit/:slug", isAuth, isAdmin, adminController.get_role_edit);
 router.post("/role/edit/:slug", isAuth, isAdmin, adminController.post_role_edit);
+router.post("/role/remove/:id", isAuth, isAdmin, adminController.post_remove_user_from_role);
 router.post("/role/delete/:id", isAuth, isAdmin, adminController.post_role_delete);
 router.get("/roles", isAuth, isAdmin, adminController.get_roles);
 
 //user routes
+router.post("/user/edit/:id", isAuth, isAdmin, adminController.post_user_edit);
 router.get("/users", isAuth, isAdmin, adminController.get_users);
 
 //table routes

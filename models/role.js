@@ -8,7 +8,11 @@ const roleSchema=new Schema({
         type: String,
         unique: true,
     },
-    url:String,
+    url:{
+        type: String,
+        unique: true
+    },
+    users:[{type:Schema.Types.ObjectId, ref:"User"}]
 });
 
 roleSchema.pre('save', function(next) {

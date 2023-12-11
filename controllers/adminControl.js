@@ -99,7 +99,6 @@ exports.post_product_remove_from_category=async(req,res)=>{
     const productId=req.body.productId;
     const productName=req.body.productName;
     const categoryId=req.body.categoryId;
-    console.log(productId);
     const categoryUrl=req.body.categoryUrl;
 
     await Category.findByIdAndUpdate(categoryId,{$pull: {products: productId}});
@@ -328,7 +327,8 @@ exports.get_role_edit=async(req,res)=>{
     const message=req.session.message;
     delete req.session.message;
     const url=req.params.slug;
-    const role=await Role.findOne({url:url});
+    const role=await Role.findOne({url:url}).populate("users", "_id fullname email");
+    const users=await User.find({roles:role._id}).populate("roles","roleName");
     if(role._id=="656b0cb52c7c2a769ef56706" || role._id=="656b0caf2c7c2a769ef56702"){
         req.session.message={text:"This role can't be delete or edit", class:"warning"};
         return res.redirect("/admin/roles");
@@ -336,6 +336,7 @@ exports.get_role_edit=async(req,res)=>{
     return res.render("admin/role-edit",{
         title: "Role Edit",
         role: role,
+        users: users,
         message: message
     })
 }
@@ -369,6 +370,18 @@ exports.post_role_edit=async(req,res)=>{
     }
     
 }
+exports.post_remove_user_from_role=async(req,res)=>{
+    const roleUrl=req.body.roleUrl;
+    const roleId=req.body.roleId;
+    const userName=req.body.userName;
+    const userId=req.body.userId;
+
+    await User.findByIdAndUpdate(userId,{$pull:{roles: roleId}});
+    await Role.findByIdAndUpdate(roleId,{$pull:{users: userId}});
+    
+    req.session.message={text:`User of ${userName} is removed from role`, class:"danger"};
+    return res.redirect("/admin/role/edit/"+roleUrl);
+}
 exports.post_role_delete=async(req,res)=>{
     const roleName=req.body.roleName;
     const roleId=req.body.roleId;
@@ -392,6 +405,28 @@ exports.get_roles=async(req,res)=>{
 }
 
 //User Operations
+exports.post_user_edit=async(req,res)=>{
+    const roleIds=req.body.roleIds;
+    const userCode=req.body.userCode;
+    const userId=req.body.userId;
+
+    const user=await User.findByIdAndUpdate(userId,{roles:[], updatedDate: Date.now()});
+    const roles=await Role.find({users:userId});
+    for (const role of roles) {
+        role.users.pop(userId);
+        await role.save();
+    }
+    if(roleIds!=undefined){
+        for (const roleId of roleIds) {
+            user.roles.push(roleId)
+            await user.save();
+            await Role.findByIdAndUpdate(roleId,{$push:{users:userId, updatedDate: Date.now()}}); 
+        }
+    }
+
+    req.session.message={text:`Updated user with user code "${userCode}"`, class:"warning"};
+    return res.redirect("/admin/users");
+}
 exports.get_users=async(req,res)=>{
     const message=req.session.message;
     delete req.session.message;

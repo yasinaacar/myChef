@@ -31,6 +31,10 @@ const userSchmea=new Schema({
         type: Date,
         default: Date.now
     },
+    lastActivity:{
+        type: Date,
+        default: Date.now
+    },
     roles:[{type:Schema.Types.ObjectId, ref:"Role"}]
 });
 

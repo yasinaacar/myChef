@@ -33,7 +33,7 @@
                             <tr class="text-center">
                                 <th style="width:200px">Role Code</th>
                                 <th>Role Name</th>
-                                <th>User Count</th>
+                                <th style="width: 120px;">User Count</th>
                                 <th style="width: 120px;"></th>
                             </tr>
                         </thead>
@@ -42,7 +42,7 @@
                                 <tr class=" align-items-center">
                                     <td><%= role.roleCode %></td>
                                     <td><%= role.roleName %></td>
-                                    <td>0</td>
+                                    <td><%= role.users.length %></td>
                                     <td>
                                         <div class="table-buttons <%= (role._id=="656b0caf2c7c2a769ef56702" || role._id=="656b0cb52c7c2a769ef56706" ) ? "disabled":"" %>">
                                             <!-- update-role -->

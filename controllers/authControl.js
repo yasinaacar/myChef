@@ -51,6 +51,7 @@ exports.post_register=async(req,res)=>{
             html:"<h1>Welcome To myChef</h1><br><p>Now u can use web application and you can create order or make a payment</p>"
         });
         logger.info(`E-mail is sended to new user (${email}) More Info: ${sendedMail.messageId}`);
+        req.session.message={text:`Account is created, you can go login page`, class:"warning"};
         return res.redirect("/auth/register");
     } catch (err) {
         console.log(err);
@@ -106,6 +107,8 @@ exports.post_login=async(req,res)=>{
     if(req.session.roles.includes("admin")){
         req.session.isAdmin="admin"
     }
+    user.lastActivity=Date.now();
+    await user.save();
     return res.redirect(url==undefined ? "/menu":url);
 };
 
@@ -186,6 +189,7 @@ exports.post_new_password=async(req,res)=>{
     user.password=await bcrypt.hash(password);
     user.token=null;
     user.tokenExpiration=null;
+    user.updatedDate=Date.now();
     await user.save();
     req.session.message={text: `Password is updated, You can login your account`, class:"success"};
     return res.redirect("/auth/login")
